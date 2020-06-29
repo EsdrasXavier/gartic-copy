@@ -1,14 +1,14 @@
 import 'antd/dist/antd.css';
-import './styles/App.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home/Home';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './styles/App.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
+  <>
+    <App />
+  </>,
   document.getElementById('root')
 );
 
