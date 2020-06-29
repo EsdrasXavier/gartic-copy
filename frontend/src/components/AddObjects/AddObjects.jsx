@@ -89,7 +89,7 @@ const AddObjects = props => {
   };
 
   return (
-    <Card style={{ width: '90%', marginLeft: 'auto', marginRight: 'auto', marginTop: 50 }}>
+    <Card style={{ width: '90%', marginLeft: 'auto', marginRight: 'auto', marginTop: 100 }}>
       <Form
         {...layout}
         name="basic"

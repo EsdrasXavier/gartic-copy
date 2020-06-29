@@ -1,11 +1,7 @@
-import { SmileOutlined, } from '@ant-design/icons';
-import { Button, Card, Checkbox, Form, Input, notification, List, Typography, Divider, Modal } from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
+import { Button, Card, Form, Input, List, Modal, notification, Typography } from 'antd';
 import axios from 'axios';
-import React from "react";
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { useRef } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
 const layout = {
   labelCol: { span: 8 },
@@ -23,7 +19,7 @@ const openNotification = error => {
   });
 };
 
-const successNotification = ( message, description ) => {
+const successNotification = (message, description) => {
   notification.open({
     message,
     description,
@@ -84,7 +80,7 @@ const AddTheme = props => {
   };
 
   return (
-    <Card style={{ width: '90%', marginLeft: 'auto', marginRight: 'auto', marginTop: 50 }}>
+    <Card style={{ width: '90%', marginLeft: 'auto', marginRight: 'auto', marginTop: 100 }}>
       <Form
         {...layout}
         name="basic"

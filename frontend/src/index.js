@@ -5,10 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import './styles/App.scss';
 
-ReactDOM.render(
-  <>
-    <App />
-  </>,
+localStorage.setItem("user", '{}');
+
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
 
