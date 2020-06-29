@@ -2,8 +2,6 @@ const express = require('express');
 const ThemeController = require('../controllers/ThemeController');
 const UserController = require('../controllers/UserController');
 const DrawnOptionController = require('../controllers/DrawnOptionController');
-const passport = require('passport');
-const { Router } = require('express');
 const auth = require('../controllers/auth')();
 
 const routes = express.Router();

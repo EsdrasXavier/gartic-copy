@@ -57,6 +57,10 @@ class Canvas extends Component {
     this.myP5 = new p5(this.Sketch, this.myRef.current);
   }
 
+  componentWillUnmount() {
+    this.myP5 = null;
+  }
+
   render() {
     return (
       <div ref={this.myRef}>
