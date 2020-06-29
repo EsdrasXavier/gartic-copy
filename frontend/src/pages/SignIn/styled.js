@@ -1,4 +1,4 @@
-import styled from 'style-components';
+import styled from 'styled-components';
 
 export const PageArea = styled.div`
 
@@ -27,10 +27,12 @@ export const PageArea = styled.div`
                 input{
                     width:100%;
                     font-size:14px;
+                    padding:5px;
                     border:1 px solid #DDD;
                     border-radius:3px;
                     outline:0;
                     transition:all ease .4s
+                    align-items:left;
 
                     &:focus {
                         border:1px solid #333;
@@ -46,6 +48,7 @@ export const PageArea = styled.div`
                 padding:5px 10px;
                 border-radius:4px;
                 color:#FFF;
+                font-size:15px;
                 cursor:pointer;
 
                 &:hover {
